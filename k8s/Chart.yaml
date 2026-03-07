@@ -1,0 +1,6 @@
+apiVersion: v2
+name: alice-api-gateway
+description: ALICE API Gateway SaaS
+type: application
+version: 0.1.0
+appVersion: "0.1.0"
