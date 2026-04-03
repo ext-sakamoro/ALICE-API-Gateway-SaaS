@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import '@/styles/globals.css';
 const inter = Inter({ subsets: ['latin'] });
-export const metadata: Metadata = { title: 'ALICE API Gateway SaaS', description: 'ALICE API Gateway SaaS - Cloud platform powered by ALICE' };
+export const metadata: Metadata = { title: 'ALICE API Gateway', description: 'ALICE API Gateway - Cloud platform powered by ALICE' };
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (<html lang="en" suppressHydrationWarning><body className={inter.className}>{children}</body></html>);
 }
